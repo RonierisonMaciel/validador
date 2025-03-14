@@ -6,3 +6,6 @@ def validar_senha(senha):
     if not any(char in "%$#@" for char in senha):
         return False
     return True
+
+def soma(a, b):
+    return a + b
